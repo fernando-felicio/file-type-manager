@@ -16,7 +16,8 @@ locais = {
     "PDF's" : [".pdf"],
     "Textos" : [".docx"],
     "Executaveis" : [".exe"],
-    "Compactados":[".rar", ".zip"]
+    "Compactados":[".rar", ".zip"],
+    "Arquivos SVG" :[".svg"]
 }
 
 for arquivo in lista_arquivo:
@@ -25,5 +26,5 @@ for arquivo in lista_arquivo:
         if extensao in locais[pasta]:
             if not os.path.exists(f"{caminho}/{pasta}"):
                 os.mkdir(f"{caminho}/{pasta}")
-            os.rename(f"{caminho}/ {arquivo}", f"{caminho}/{pasta}/{arquivo}")
+            os.rename(f"{caminho}/{arquivo}", f"{caminho}/{pasta}/{arquivo}")
            
