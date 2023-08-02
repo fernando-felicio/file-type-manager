@@ -6,6 +6,7 @@ caminho = askdirectory(title= "Selecione uma pasta: ")
 print(caminho)
 
 lista_arquivo = os.listdir(caminho)
+print(caminho)
 print(lista_arquivo)
 
 locais = {
@@ -20,6 +21,7 @@ locais = {
     "Arquivos SVG" :[".svg"]
 }
 
+# Criando regras de negócio
 for arquivo in lista_arquivo:
     nome, extensao = os.path.splitext(f"{caminho}/{arquivo}")
     for pasta in locais:
