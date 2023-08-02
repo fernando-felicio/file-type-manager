@@ -7,6 +7,7 @@ print(caminho)
 
 lista_arquivo = os.listdir(caminho)
 print(lista_arquivo)
+print(arquivo)
 
 locais = {
     "Imagens" : [".jpg", ".jpeg", ".png", ".raw"],
