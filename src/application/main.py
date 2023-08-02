@@ -20,7 +20,7 @@ locais = {
 }
 
 for arquivo in lista_arquivo:
-    nome, extensao = os.path.splitext = (f"{caminho}/{arquivo}")
+    nome, extensao = os.path.splitext(f"{caminho}/{arquivo}")
     for pasta in locais:
         if extensao in locais[pasta]:
             if not os.path.exists(f"{caminho}/{pasta}"):
