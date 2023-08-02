@@ -24,6 +24,6 @@ for arquivo in lista_arquivo:
     for pasta in locais:
         if extensao in locais[pasta]:
             if not os.path.exists(f"{caminho}/{pasta}"):
-                os.makedir(f"{caminho}/{pasta}")
+                os.mkdir(f"{caminho}/{pasta}")
             os.rename(f"{caminho}/ {arquivo}", f"{caminho}/{pasta}/{arquivo}")
            
