@@ -1,13 +1,37 @@
-# file_organizer
+# Automação para Organização de Diretórios
 
-Automação para organização de diretórios
+Este é um programa de automação desenvolvido em Python para organizar os arquivos de um diretório com base em suas extensões.
 
-O programa interage com o usuário através de um pop-up
+## Funcionamento
 
-O usuário aponta a pasta onde o programa fara a leitura dos arquivos
+O programa interage com o usuário através de uma interface gráfica, onde o usuário seleciona a pasta que deseja organizar. Em seguida, o programa analisa os arquivos dentro dessa pasta, separa-os por extensões e os move para novas pastas criadas de acordo com suas categorias.
 
-Após selecionar a pasta, o programa separa os arquivos por extensões, cria novas pastas e adciona os arquivos em cada pasta de acordo com sua extensão.
+## Funcionalidades
 
-LINK PARA DOWNLOAD DO EXECUTAVEL:
+- Organização automática de arquivos por extensões.
+- Interface gráfica simples e intuitiva.
+- Facilidade de uso para o usuário final.
 
-https://drive.google.com/file/d/1A0oD9q7b80mxnm4bTywsc_pOAB0AKlDA/view?usp=sharing
+## Como Usar
+
+1. Baixe o executável [aqui](https://drive.google.com/file/d/1A0oD9q7b80mxnm4bTywsc_pOAB0AKlDA/view?usp=sharing).
+2. Execute o programa.
+3. Selecione a pasta que deseja organizar.
+4. Aguarde o programa concluir o processo de organização.
+
+## Pré-requisitos
+
+- Sistema operacional Windows.
+
+## Contribuições
+
+Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests com melhorias ou correções de bugs.
+
+## Licença
+
+Livre.
+
+---
+
+**Desenvolvido por [Fernando Felicio](https://github.com/fernando-felicio)**
+
